@@ -275,12 +275,9 @@
 
 .icon-menu,
 .icon-cancel {
+  color: var(--global-color);
   margin: 0;
   font-size: 2.7rem;
-}
-
-.icon-menu {
-  color: #fff;
 }
 
 .btn-mobile-nav {
