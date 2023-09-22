@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="
+      We are the most creative talented agency. We can design your
+      ideas and show it to the world. You can think and let us do.
+      "
+    />
+    <link
+      id="favicon"
+      rel="icon"
+      sizes="100x100"
+      type="image/png"
+      href="./images/fav-icon.png"
+    />
+    <title>Creative Agency</title>
+    <link rel="stylesheet" href="icons/css/fontello.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quries.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Setting box -->
+    <div id="setting-box" class="setting-box">
+      <div class="setting-icon">
+        <i id="toggle-setting-box-icon" class="icon-cog"></i>
+      </div>
+
+      <div class="setting-content">
+        <div class="option-box">
+          <h3>Colors</h3>
+          <ul class="colors-list ds-flex">
+            <li class="active" data-color="#a18436"></li>
+            <li data-color="#00818f"></li>
+            <li data-color="#EA1C29"></li>
+            <li data-color="#2BA79B"></li>
+            <li data-color="#FF8300"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="setting-content">
+        <div class="option-box">
+          <h3>Page Theme</h3>
+          <div class="day-mood ds-flex" id="day-mood-toggler">
+            <i class="icon-sun-filled" id="light-mood"></i>
+            <i class="icon-moon active" id="dark-mood"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="setting-content">
+        <div class="option-box">
+          <h3>Section Bullets</h3>
+          <div class="section-bullets settings-btn-container">
+            <button class="show-bullets setting-btn">Show</button>
+            <button class="hide-bullets setting-btn active">Hide</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="setting-content">
+        <div class="option-box">
+          <h3>Progress Bar</h3>
+          <div class="progress-bar settings-btn-container">
+            <button class="show-progress-bar setting-btn active">Show</button>
+            <button class="hide-progress-bar setting-btn">Hide</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="setting-content">
+        <div class="option-box">
+          <h3>Sticky Navigation</h3>
+          <div class="progress-bar settings-btn-container">
+            <button class="show-sticky-navigation setting-btn active">
+              Show
+            </button>
+            <button class="hide-sticky-navigation setting-btn">Hide</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="reset-options">Reset Options</button>
+    </div>
+    <!-- Setting box -->
+
+    <!-- Nav Bullet -->
+    <div class="nav-bullets">
+      <div class="nav-bullet" data-section="#home">
+        <div class="tooltip">Home</div>
+      </div>
+      <div class="nav-bullet" data-section="#skills">
+        <div class="tooltip">Skills</div>
+      </div>
+      <div class="nav-bullet" data-section="#gallery">
+        <div class="tooltip">Gallery</div>
+      </div>
+      <div class="nav-bullet" data-section="#timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="nav-bullet" data-section="#services">
+        <div class="tooltip">Services</div>
+      </div>
+      <div class="nav-bullet" data-section="#testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="nav-bullet" data-section="#contact">
+        <div class="tooltip">Contact</div>
+      </div>
+    </div>
+    <!-- Nav Bullet -->
+
+    <!-- Landing -->
+    <header id="home" class="section home sticky">
+      <div class="scroll-progress"></div>
+      <div class="header ds-flex">
+        <a href="./index.html" class="logo">Creative Agency</a>
+        <nav class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#services">Service</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="btn-mobile-nav btn">
+          <i class="icon-menu nav-icon" name="burger"></i>
+          <i class="icon-cancel nav-icon" name="close"></i>
+        </button>
+      </div>
+
+      <div id="landing-page" class="landing-page">
+        <div class="container">
+          <div class="intro ds-flex">
+            <div class="intro-text">
+              <h1 class="title">we are <span>creative</span> agency</h1>
+              <p>
+                We are the most creative talented agency. We can design your
+                ideas and show it to the world. You can think and let us do.
+              </p>
+            </div>
+
+            <img
+              id="intro-img"
+              src="./images/Intro/1-intro-gold.svg"
+              alt="intro img"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Landing -->
+
+    <!-- Skills -->
+    <section id="skills" class="skills section">
+      <h2 class="main-title">Our Skills</h2>
+      <div class="container">
+        <div class="skills">
+          <div class="skills-container ds-flex">
+            <div class="skill-box" data-progress="90">
+              <p class="skill-percentages">90%</p>
+              <p class="skill-name">HTML</p>
+            </div>
+            <div class="skill-box" data-progress="75">
+              <p class="skill-percentages">75%</p>
+              <p class="skill-name">CSS</p>
+            </div>
+            <div class="skill-box" data-progress="60">
+              <p class="skill-percentages">60%</p>
+              <p class="skill-name">JavaScript</p>
+            </div>
+            <div class="skill-box" data-progress="80">
+              <p class="skill-percentages">80%</p>
+              <p class="skill-name">React</p>
+            </div>
+            <div class="skill-box" data-progress="75">
+              <p class="skill-percentages">75%</p>
+              <p class="skill-name">Git & GitHub</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery section">
+      <h2 class="main-title">our gallery</h2>
+      <div class="container">
+        <div class="gallery-images ds-flex">
+          <img src="./images/gallery/1-gallery-1.svg" alt="Design" />
+          <img src="./images/gallery/2-gallery-1.svg" alt="Develope" />
+          <img src="./images/gallery/3-gallery-1.svg" alt="Secure" />
+          <img src="./images/gallery/4-gallery-1.svg" alt="Analysis" />
+          <img src="./images/gallery/5-gallery-1.svg" alt="Market" />
+          <img src="./images/gallery/6-gallery-1.svg" alt="Technology" />
+        </div>
+      </div>
+    </section>
+    <!-- Gallery -->
+
+    <!-- Timeline -->
+    <section id="timeline" class="timeline section">
+      <h2 class="main-title">Our Timeline</h2>
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="bullet"></div>
+          <div class="left">
+            <div class="content">
+              <h3>The beginning</h3>
+              <p>
+                I was in the first year at collage and I started to try a lot of
+                things to find something I want to continue in. and I have tried
+                a lot of felids since this year
+              </p>
+            </div>
+          </div>
+          <div class="bullet"></div>
+          <div class="right">
+            <div class="content">
+              <h3>The beginning</h3>
+              <p>
+                I wasn't knowing anything and I didn't even know how to use a
+                computer keyboard so I decide I have to do something about that.
+                I started to try a lot of things
+              </p>
+            </div>
+          </div>
+          <div class="year">2020</div>
+          <div class="bullet"></div>
+          <div class="left">
+            <div class="content">
+              <h3>In The Middle</h3>
+              <p>
+                First I told myself let's learn the main things let's know how
+                to deal with the small things like to open or close any thing.
+                And I felt really great at that time
+              </p>
+            </div>
+          </div>
+          <div class="bullet"></div>
+          <div class="left">
+            <div class="content">
+              <h3>In The Middle</h3>
+              <p>
+                I Started to learn Microsoft office and so on and I tried to
+                learn graphic design and a lot of other tings I was really
+                having passion about what I am doing.
+              </p>
+            </div>
+          </div>
+          <div class="year">2023</div>
+          <div class="bullet"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Still Working</h3>
+              <p>
+                Then I tried to learn how to teach English because it's my felid
+                but it didn't really go well I didn't love it. So I kept trying
+                and trying
+              </p>
+            </div>
+          </div>
+          <div class="bullet"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Still Working</h3>
+              <p>
+                Finally I am still trying until now and what I know that you
+                should try hard and keep trying and I believe that I will arrive
+                someday. Peace
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Timeline -->
+
+    <!-- Services -->
+    <section id="services" class="services section">
+      <h2 class="main-title">our services</h2>
+      <div class="container">
+        <div class="services-container">
+          <div class="service-box">
+            <img
+              src="./images//services/1-services-1.svg"
+              alt="Development"
+              class="service-img"
+            />
+            <h2 class="service-title">Development</h2>
+            <p>
+              We are a professional agency, and we can <span>Develop</span> you
+              anything you want.
+            </p>
+          </div>
+          <div class="service-box">
+            <img
+              src="./images//services/2-services-1.svg"
+              alt="Design"
+              class="service-img"
+            />
+            <h2 class="service-title">Design</h2>
+            <p>
+              We are a professional agency, and we can <span>Design</span> you
+              any idea you think of.
+            </p>
+          </div>
+          <div class="service-box">
+            <img
+              src="./images//services/3-services-1.svg"
+              alt="Secure"
+              class="service-img"
+            />
+            <h2 class="service-title">Secure</h2>
+            <p>
+              We are a professional agency, and we can <span>Secure</span> your
+              whole projects.
+            </p>
+          </div>
+          <div class="service-box">
+            <img
+              src="./images//services/4-services-1.svg"
+              alt="Analyses"
+              class="service-img"
+            />
+            <h2 class="service-title">Analyses</h2>
+            <p>
+              We are a professional agency, and we can
+              <span>Analyses</span> your project.
+            </p>
+          </div>
+          <div class="service-box">
+            <img
+              src="./images//services/5-services-1.svg"
+              alt="SEO"
+              class="service-img"
+            />
+            <h2 class="service-title">SEO</h2>
+            <p>
+              We are a professional agency, and we can make your
+              <span>SEO</span> website in the top.
+            </p>
+          </div>
+          <div class="service-box">
+            <img
+              src="./images//services/6-services-1.svg"
+              alt="Quality"
+              class="service-img"
+            />
+            <h2 class="service-title">Quality</h2>
+            <p>
+              We are a professional agency, and we are sure of our
+              <span>Quality</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials section">
+      <h2 class="main-title">Testimonials</h2>
+      <div class="container">
+        <div class="testimonials-container">
+          <div class="testimonial-box">
+            <p>
+              You can trust this agency it's really a professional agency it can
+              done any work you want in anytime.
+            </p>
+            <div class="person">
+              <img src="./images/customers/customer-1.jpg" alt="customer-1" />
+              <div class="person-info">
+                <h4>Adel Hassan</h4>
+                <p>CEO at Elshrika</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-box">
+            <p>
+              This agency is the best in the world, it finished my work at the
+              time and it was the best quality I ever had.
+            </p>
+            <div class="person">
+              <img src="./images/customers/customer-2.jpg" alt="customer-2" />
+              <div class="person-info">
+                <h4>Ahmed Adel</h4>
+                <p>CEO at Elshrika</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-box responsive-grid">
+            <p>
+              If you want your work in a great quality and in a good time with
+              support after that you should hire this agency
+            </p>
+            <div class="person">
+              <img src="./images/customers/customer-3.jpg" alt="customer-3" />
+              <div class="person-info">
+                <h4>Ahmed Hassan</h4>
+                <p>CEO at Elshrika</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+
+    <section id="contact" class="contact section">
+      <h2 class="main-title">Contact Us</h2>
+      <div class="container">
+        <div class="form">
+          <div class="left">
+            <input type="text" placeholder="Your Name" />
+            <input type="text" placeholder="Your Phone" />
+            <input type="email" placeholder="Your Mail" />
+            <input type="text" placeholder="Your Subject" />
+          </div>
+          <div class="right">
+            <textarea
+              placeholder="Your Message"
+              name="Your Message"
+              id=""
+              cols=""
+              rows=""
+            ></textarea>
+            <input id="submit" type="submit" value="Send" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <i class="icon-up"></i>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>
+          &copy; <span class="current-year">2023</span>
+          <a
+            href="https://www.linkedin.com/in/hassan-ghorab-3bbb791a1/"
+            target="_blank"
+            >Hassan Ghorab</a
+          >
+          | All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Popup Model -->
+    <div class="popup-Container ds-none"></div>
+    <!-- Popup Model -->
+  </body>
+</html>
