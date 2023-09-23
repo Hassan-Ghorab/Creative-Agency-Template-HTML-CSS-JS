@@ -21,3 +21,6 @@ You can view the live demo of the project at
 - You can show or hide nav bullets of the sections.
 - Reload the page without losing your data.
 - It's working on all screens.
+
+#Resources
+[Elzero Web School Template](https://youtube.com/playlist?list=PLDoPjvoNmBAzvmpzF-6l3tAviiCPbwkB8&si=KHh0meoqOrv8rVPM)
